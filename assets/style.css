@@ -294,7 +294,7 @@ html {
 	position: relative;
 	font-size: 18px;
 	margin-left: 10px;
-	margin-top: 10px;
+	margin-top: 8px;
 }
 
 #topbarlogo:hover {
@@ -468,6 +468,131 @@ html {
 	border-radius: 5px;
 	padding-top: 3px;
 	margin-top: 30px;
+}
+
+/* END SEARCH PAGE CSS -- BEGIN CLASSROOM CSS */
+
+#classroom {
+	background-color: #FFF;
+	width: 100%;
+	height: 1000px;
+	font-family: century;
+}
+
+#classtopbar { 
+	position: fixed;
+	background-color: #0099CC;
+	width: 100%;
+	height: 40px;
+	margin-top: -50px;
+	margin-left: -8px;
+}
+
+#classtopbarlogo {
+	color: white;
+	position: relative;
+	font-size: 18px;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+
+#classtopbarlogo:hover {
+	cursor: pointer;
+}
+
+#classtopbarlogin {
+	font-size: 18px;
+	color: white;
+	position: relative;
+	margin-left: calc(100% - 80px);
+	margin-top: -23px;
+}
+
+#classtopbarlogin:hover {
+	cursor: pointer;
+}
+
+
+#title {
+	font-size: 28px;
+	margin-top: 50px;
+	margin-left: 5px;
+}
+
+#username {
+	margin-left: 5px;
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+#classdivide {
+  	background-color: #0099CC;
+	width: 70%;
+	height: 2px;
+	border-radius: 2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+} 
+
+#background {
+	font-size: 22px;
+}
+
+#statement {
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+#morestate {
+	margin-left: 5px;
+	color: blue;
+}
+
+#morestate:hover {
+	cursor: pointer;
+}
+
+#morestatement {
+	display: none;
+	margin-left: 5px;
+}
+
+#question {
+	font-size: 24px;
+}
+
+#questions {
+ 	margin-top: 10px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+#answer {
+	font-size: 24px;
+}
+
+#answers {
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+#morequest {
+	color: blue;
+}
+
+#morequest:hover {
+	cursor: pointer;
+}
+
+#morequestions {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+#moreanswers {
+ margin-top: 10px;
 }
 
 
