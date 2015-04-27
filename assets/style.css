@@ -1,18 +1,18 @@
 html {
-	background-color: #686868;
+	background-color: #E9EAED;
 }
 
 #landing {
 	width: 100%;
 	height: 2400px;
-	color: white;
+	color: black;
 }
 
 #logo {
 	font-size: 56px;
 	position: relative;
 	text-align: center;
-	margin-top: 120px;
+	margin-top: 20px;
 	
 }
 
@@ -22,14 +22,8 @@ html {
 	text-align: center;
 	margin-top: -10px;
 	margin-bottom: 10px;
-	
 }
 
-#search {
-	margin-left: calc(50% - 250px);
-	display: inline;
-
-}
 
 #landingsearch {
 	width: 400px;
@@ -37,17 +31,231 @@ html {
 	font-size: 14px;
 	text-align: center;
 	position: relative;
+	margin-left: calc(50% - 200px);
 }
 
 #landinggo {
 	width: 80px;
 	height: 30px;
-	margin-left: 10px;
+	position: relative;
+	margin-left: calc(50% - 40px);
+	margin-top: 10px;
+	background-color: #E5E5E5;
+}
+
+#landinggo:hover {
+	background-color: #C5C5C5;
 }
 
 #searchsubject {
 	font-size: 24px;
 	position: relative;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 10px;
 }
+
+#login {
+	position: relative;
+	margin-left: calc(100% - 50px);
+}
+
+#login:hover {
+	color: blue;
+}
+
+#blipholder {
+	height: 400px;
+	width: 100%;
+	background-color: #E9EAED;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-left: calc(50% - 200px);
+}
+
+.blip {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-color: white;
+	border: solid 3px;
+}
+
+.blip:hover {
+	border: solid 5px;  
+}
+
+.pic {
+	position: relative;
+	width: 65px;
+	left: 17px;
+	top: 13px;
+}
+
+.name {
+	text-align: center;
+	position: relative;
+	margin-top: 40px;
+}
+
+#mathblip {
+	border-color: #006600;
+	color: #006600;
+	position: absolute;
+	margin: 0 auto;
+}
+
+#mathpic {
+	width: 80px;
+	top: 25px;
+	left: 10px;
+}
+
+#math {
+	margin-top: 55px;
+}
+
+#literatureblip {
+	border-color: #CC0000;
+	color: #CC0000;
+	position: absolute;
+	margin: 0 auto;
+	margin-left: 140px;
+}
+
+#literaturepic {
+	top: 20px;
+	width: 80px;
+	left: 10px;
+}
+
+#literature {
+	margin-top: 44px;
+}
+
+#chemistryblip {
+	border-color: #1975FF;
+	color: #1975FF;
+	position: absolute;
+	margin: 0 auto;
+	margin-left: 280px;
+}
+
+#chemistrypic {
+	width: 80px;
+}
+
+#chemistry {
+	margin-top: 32px;
+}
+
+#physicsblip {
+	border-color: #1975FF;
+	color: #1975FF;
+	position: absolute;
+	margin: 0 auto;
+	margin-top: 140px;
+}
+
+#physicspic {
+	width: 80px;
+	left: 10px;
+	top: 25px;
+	border-radius: 100%;
+}
+
+#physics {
+	margin-top: 50px;
+}
+
+#forsaleblip {
+	border-color: #006600;
+	color: #006600;
+	position: absolute;
+	margin: 0 auto;
+	margin-top: 140px;
+	margin-left: 140px;
+}
+
+#forsalepic {
+	width: 50px;
+	left: 25px;
+	top: 12px;
+}
+
+#forsale {
+	margin-top: 35px;
+}
+
+#servicesblip {
+	border-color: #CC0000;
+	color: #CC0000;
+	position: absolute;
+	margin: 0 auto;
+	margin-top: 140px;
+	margin-left: 280px;
+}
+
+#servicespic {
+	width: 40px;
+	top: 15px;
+	left: 28px;
+}
+
+#services {
+	margin-top: 37px;
+}
+
+#jobsblip {
+	border-color: #CC0000;
+	color: #CC0000;
+	position: absolute;
+	margin: 0 auto;
+	margin-top: 280px;
+}
+
+#jobspic {
+	width: 30px;
+	left: 34px;
+}
+
+#jobs {
+	margin-top: 28px;
+}
+
+#resumesblip {
+	border-color: #1975FF;
+	color: #1975FF;
+	position: absolute;
+	margin: 0 auto;
+	margin-top: 280px;
+	margin-left: 140px;
+}
+
+#resumespic {
+	top: 16px;
+}
+
+#resumes {
+	margin-top: 40px;
+}
+
+#gigsblip {
+	border-color: #006600;
+	color: #006600;
+	position: absolute;
+	margin: 0 auto;
+	margin-top: 280px;
+	margin-left: 280px;
+}
+
+#gigspic {
+	width: 75px;
+	left: 10px;
+	top: 18px;
+}	
+
+#gigs {
+	margin-top: 34px;
+}
+
