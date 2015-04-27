@@ -1,5 +1,6 @@
 html {
 	background-color: #E9EAED;
+	width: 100%;
 }
 
 #landing {
@@ -9,6 +10,7 @@ html {
 }
 
 #logo {
+	font-family: century;
 	font-size: 56px;
 	position: relative;
 	text-align: center;
@@ -17,6 +19,7 @@ html {
 }
 
 #sublogo {
+	font-family: century;
 	font-size: 24px;
 	position: relative;
 	text-align: center;
@@ -41,13 +44,16 @@ html {
 	margin-left: calc(50% - 40px);
 	margin-top: 10px;
 	background-color: #E5E5E5;
+	box-shadow: 0 0 4px rgba(0,0,0, .75);
+	border: solid 1px;
 }
 
 #landinggo:hover {
-	background-color: #C5C5C5;
+	background-color: #CCCCCC;
 }
 
 #searchsubject {
+	font-family: century;
 	font-size: 24px;
 	position: relative;
 	text-align: center;
@@ -65,7 +71,6 @@ html {
 
 #blipholder {
 	height: 400px;
-	width: 100%;
 	background-color: #E9EAED;
 	position: relative;
 	margin: 0 auto;
@@ -208,11 +213,13 @@ html {
 }
 
 #economicsblip {
-	border-color: #CC0000;
-	color: #CC0000;
+
+		border-color: #1975FF;
+	color: #1975FF;
 	position: absolute;
 	margin: 0 auto;
 	margin-top: 280px;
+	margin-left: 140px;
 }
 
 #economicspic {
@@ -226,22 +233,21 @@ html {
 }
 
 #philosophyblip {
-	border-color: #1975FF;
-	color: #1975FF;
+	border-color: #CC0000;
+	color: #CC0000;
 	position: absolute;
 	margin: 0 auto;
 	margin-top: 280px;
-	margin-left: 140px;
 }
 
 #philosophypic {
-	width: 50px;
+	width: 75px;
 	top: 10px;
-	left: 27px;
+	left: 12px;
 }
 
 #philosophy {
-	margin-top: 23px;
+	margin-top: 32px;
 }
 
 #socialblip {
