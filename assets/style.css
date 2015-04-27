@@ -665,6 +665,7 @@ html {
 #question {
 	margin-top: 10px;
 	font-size: 24px;
+	margin-left: 1px;
 }
 
 #questions {
@@ -676,6 +677,7 @@ html {
 
 #numquestions {
 	font-style: italic;
+	margin-left: 2px;
 }
 
 #answer {
