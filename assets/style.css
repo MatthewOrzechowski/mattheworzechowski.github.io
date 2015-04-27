@@ -777,4 +777,19 @@ html {
 	cursor: pointer;
 }
 
+#totop {
+	width: 20%;
+	height: 20px;
+	border: 2px solid black;
+	border-radius: 2px;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+#totop:hover {
+	cursor: pointer;
+}
+
 

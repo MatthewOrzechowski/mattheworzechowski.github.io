@@ -51,5 +51,9 @@ $(document).ready(function() {
     $("#lesscomm2").hide();
     $("#morecomm2").show();
   })
-   
+
+  $("#totop").click(function () {
+     $("html, body").animate({scrollTop : 0}, 600);
+  })
+
 });
