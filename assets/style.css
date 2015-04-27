@@ -61,6 +61,7 @@ html {
 }
 
 #login {
+	font-family: century;
 	position: relative;
 	margin-left: calc(100% - 45px);
 }
@@ -629,18 +630,34 @@ html {
 	margin-left: 5px;
 }
 
-#morestate {
+.morestate {
 	margin-left: 5px;
 	color: blue;
 }
 
-#morestate:hover {
+.morestate:hover {
 	cursor: pointer;
 }
 
-#morestatement {
+.morestatement {
 	display: none;
 	margin-left: 5px;
+}
+
+.lessstate {
+	display: none;
+	margin-left: 5px;
+	color: blue;
+}
+
+.lessstate:hover {
+	cursor: pointer;
+}
+
+.keywords {
+	margin-top: 5px;
+	margin-left: 5px;
+	display: none;
 }
 
 #question {
@@ -678,13 +695,22 @@ html {
 
 #morequestions {
 	display: none;
-	margin-top: 10px;
+	margin-top: 15px;
 	font-weight: bold;
 }
 
 #moreanswers {
 	display: none;
  	margin-top: 10px;
+}
+
+#lessquest {
+	display: none;
+	color: blue;
+}
+
+#lessquest:hover {
+	cursor: pointer;
 }
 
 #commentsection {
@@ -733,6 +759,22 @@ html {
 	display: none;
 }
 
+#lesscomm1 {
+	display: none;
+	color: blue;
+}
 
+#lesscomm1:hover {
+	cursor: pointer;
+}
+
+#lesscomm2 {
+	display: none;
+	color: blue;
+}
+
+#lesscomm2:hover {
+	cursor: pointer;
+}
 
 
