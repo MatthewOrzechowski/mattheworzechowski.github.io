@@ -48,10 +48,6 @@ html {
 	border: solid 1px;
 }
 
-#landinggo:hover {
-	background-color: #CCCCCC;
-}
-
 #searchsubject {
 	font-family: century;
 	font-size: 24px;
@@ -64,7 +60,6 @@ html {
 	font-family: century;
 	position: relative;
 	margin-left: calc(100% - 45px);
-	margin-top: -20px;
 }
 
 #login:hover {
@@ -271,14 +266,6 @@ html {
 
 #social {
 	margin-top: 40px;
-}
-
-#whatis {
-	font-family: century;
-}
-
-#whatis:hover {
-	cursor: pointer;
 }
 
 
@@ -806,5 +793,4 @@ html {
 #totop:hover {
 	cursor: pointer;
 }
-
 

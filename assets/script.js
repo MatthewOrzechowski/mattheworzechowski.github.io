@@ -56,4 +56,10 @@ $(document).ready(function() {
      $("html, body").animate({scrollTop : 0}, 600);
   })
 
+  $("#landinggo").hover(function() {
+    $(this).css('background', '#CCCCCC')},
+    function() {
+    $(this).css('background', '#EEE')
+  }); 
+
 });
