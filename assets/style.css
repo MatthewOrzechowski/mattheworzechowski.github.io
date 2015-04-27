@@ -475,7 +475,7 @@ html {
 #classroom {
 	background-color: #FFF;
 	width: 100%;
-	height: 1000px;
+	height: 800px;
 	font-family: century;
 }
 
@@ -525,9 +525,78 @@ html {
 	font-size: 20px;
 }
 
+#classsidebar {
+	z-index: 1000;
+	margin-top: -63px;
+	margin-right: 20px;
+	width: 300px;
+	height: 520px;
+	float: right;
+	background-color: #FFF;
+	border: 3px solid #0099CC;
+	border-radius: 3px;
+}
+
+#classaccount {
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 5px;
+}
+
+#classgalois {
+	margin: 0 auto;
+	margin-left: calc(50% - 100px);
+	border: 2px solid black;
+	margin-top: 10px;
+	width: 200px;
+}
+
+#classanswered {
+	text-align: center;
+	margin-top: 5px;
+}
+
+#classonline {
+	text-align: center;
+	margin-top: 20px;
+} 
+
+#classsubmit {
+	text-align: center;
+	margin-top: 20px;
+	width: 250px;
+	height: 30px;
+	border: 2px solid black;
+	border-radius: 20px;
+	background-color: #0099CC;
+	margin-left: 25px;
+	padding-top: 8px;
+}
+
+#classsubmit:hover {
+	cursor: pointer;
+}
+
+#classmods {
+	text-align: center;
+	margin-top: 20px;
+	width: 250px;
+	height: 30px;
+	border: 2px solid black;
+	border-radius: 20px;
+	background-color: #0099CC;
+	margin-left: 25px;
+	padding-top: 8px;
+}
+
+#classmods:hover {
+	cursor: pointer;
+}
+
 #classdivide {
   	background-color: #0099CC;
-	width: 70%;
+	width: 55%;
 	height: 2px;
 	border-radius: 2px;
 	margin-top: 10px;
@@ -559,6 +628,7 @@ html {
 }
 
 #question {
+	margin-top: 10px;
 	font-size: 24px;
 }
 
@@ -567,6 +637,10 @@ html {
 	margin-left: 5px;
 	margin-bottom: 10px;
 	font-weight: bold;
+}
+
+#numquestions {
+	font-style: italic;
 }
 
 #answer {
@@ -587,12 +661,60 @@ html {
 }
 
 #morequestions {
+	display: none;
 	margin-top: 10px;
 	font-weight: bold;
 }
 
 #moreanswers {
- margin-top: 10px;
+	display: none;
+ 	margin-top: 10px;
+}
+
+#commentsection {
+	margin-top: 20px;
+	font-size: 24px;
+	margin-left: -5px;
+}
+
+#numcomments {
+	font-size: 16px;
+	font-style: italic;
+}
+
+.leadcomment {
+	margin-left: 5px;
+	border: 2px solid #0099CC;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.subcomment {
+	border-left: 1px solid #0099CC;
+	padding-left: 3px;
+	font-weight: normal;
+	margin-left: 10px;
+	margin-top: 2px;
+	margin-bottom: 3px;
+}
+
+#morecomm1 {
+	color: blue;
+}
+
+#morecomm2 {
+	color: blue;
+}
+
+.moresubcomments1 {
+	display: none;
+}
+
+.moresubcomments2 {
+	display: none;
 }
 
 
