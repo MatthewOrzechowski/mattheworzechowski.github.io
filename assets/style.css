@@ -367,12 +367,20 @@ html {
 	margin-top: 5px;
 }
 
+#account:hover {
+	cursor: pointer;
+}
+
 #galois {
 	margin: 0 auto;
 	margin-left: calc(50% - 100px);
 	border: 2px solid black;
 	margin-top: 10px;
 	width: 200px;
+}
+
+#galois:hover {
+	cursor: pointer;
 }
 
 #answered {
@@ -544,12 +552,20 @@ html {
 	margin-top: 5px;
 }
 
+#classaccount:hover {
+	cursor: pointer;
+}
+
 #classgalois {
 	margin: 0 auto;
 	margin-left: calc(50% - 100px);
 	border: 2px solid black;
 	margin-top: 10px;
 	width: 200px;
+}
+
+#classgalois:hover {
+	cursor: pointer;
 }
 
 #classanswered {
